@@ -1,6 +1,8 @@
 <?php
 
-switch($_SERVER["REQUEST_URI"]) {
+$route = str_replace('/api', '', $_SERVER["REQUEST_URI"]);
+
+switch($route) {
     case '/send-mail':
         require_once('endpoints/send-mail/index.php');
         break;
