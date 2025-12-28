@@ -1,23 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" role="img" aria-label="Della Immobilien GmbH Logo">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200" role="img" aria-label="DELLA Immobilien GmbH Logo">
   <defs>
     <style>
-      .brand-blue { fill: #1a4f7c; stroke: none; }
-      .brand-blue-stroke { stroke: #1a4f7c; stroke-width: 2; fill: none; }
-      .main { font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif; font-weight: 700; fill: #1a4f7c; text-anchor: middle; }
-      .sub  { font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif; font-weight: 400; fill: #1a4f7c; text-anchor: middle; letter-spacing: 6px; text-transform: uppercase; }
+      .brand-blue {
+        fill: #1a4f7c;
+        stroke: none;
+      }
+
+      .brand-blue-stroke {
+        stroke: #1a4f7c;
+        stroke-width: 2;
+        fill: none;
+      }
+
+      .main {
+        font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+        font-weight: 700;
+        fill: #1a4f7c;
+        text-anchor: middle;
+      }
+
+      .sub {
+        font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+        font-weight: 400;
+        fill: #1a4f7c;
+        text-anchor: middle;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+      }
     </style>
   </defs>
 
-  <g transform="scale(1.25) translate(-80,-40)">
-    <polygon class="brand-blue" points="320,120 400,60 480,120 462,120 400,75 338,120" />
+  <g>
+    <polygon class="brand-blue" points="115,70 200,10 285,70 270,70 200,25 130,70" />
 
-    <rect x="370" y="55" width="14" height="28" class="brand-blue" />
+    <rect x="170" y="5" width="15" height="30" class="brand-blue" />
 
-    <text x="400" y="245" font-size="96" class="main">DELLA</text>
+    <text x="200" y="155" font-size="96" class="main">DELLA</text>
 
-    <line x1="250" y1="265" x2="550" y2="265" class="brand-blue-stroke" />
+    <line x1="40" y1="165" x2="365" y2="165" class="brand-blue-stroke" />
 
-    <text x="400" y="300" font-size="22" class="sub">IMMOBILIEN GMBH</text>
+    <text x="200" y="190" font-size="22" class="sub">IMMOBILIEN GMBH</text>
   </g>
 </svg>
