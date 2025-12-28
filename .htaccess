@@ -6,7 +6,8 @@ RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
 
 # Route API calls to PHP
-RewriteRule ^api(/.*)?$ public/index.php [L]
+RewriteRule ^api(/.*)?$ public/index.php [L,QSA]
 
 # All other routes go to Angular
+RewriteCond %{REQUEST_URI} !^/api/
 RewriteRule ^ public/index.html [L]
